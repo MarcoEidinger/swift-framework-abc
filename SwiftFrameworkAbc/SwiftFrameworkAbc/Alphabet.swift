@@ -13,7 +13,8 @@ public struct Alphabet {
     public init() {}
 
     public func symbols() -> [String] {
-        let symbol = swift_package_abc().a()
-        return [symbol]
+        let symbolA = swift_package_abc().a()
+        let symbolB = swift_package_abc().b()
+        return [symbolA, symbolB]
     }
 }
