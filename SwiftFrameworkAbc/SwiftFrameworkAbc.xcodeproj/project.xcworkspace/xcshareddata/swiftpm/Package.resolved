@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "swift-package-abc",
+        "repositoryURL": "https://github.com/MarcoEidinger/swift-package-abc",
+        "state": {
+          "branch": null,
+          "revision": "ca9acaf8e7c77ef948c6a6420a44da0a06ff83c2",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
