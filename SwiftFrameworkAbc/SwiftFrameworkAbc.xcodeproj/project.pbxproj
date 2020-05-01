@@ -10,22 +10,7 @@
 		8A027127245CA73D005696E4 /* SwiftFrameworkAbc.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A027125245CA73D005696E4 /* SwiftFrameworkAbc.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A02712E245CA749005696E4 /* Alphabet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A02712D245CA749005696E4 /* Alphabet.swift */; };
 		8A027131245CA7A0005696E4 /* swift-package-abc in Frameworks */ = {isa = PBXBuildFile; productRef = 8A027130245CA7A0005696E4 /* swift-package-abc */; };
-		8A027132245CA7A0005696E4 /* swift-package-abc in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 8A027130245CA7A0005696E4 /* swift-package-abc */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		8A027133245CA7A0005696E4 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				8A027132245CA7A0005696E4 /* swift-package-abc in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8A027122245CA73D005696E4 /* SwiftFrameworkAbc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftFrameworkAbc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,7 +79,6 @@
 				8A02711E245CA73D005696E4 /* Sources */,
 				8A02711F245CA73D005696E4 /* Frameworks */,
 				8A027120245CA73D005696E4 /* Resources */,
-				8A027133245CA7A0005696E4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -303,6 +287,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = us.eidinger.SwiftFrameworkAbc;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -329,6 +314,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = us.eidinger.SwiftFrameworkAbc;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
